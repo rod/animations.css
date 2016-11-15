@@ -29,14 +29,12 @@ const banner = [
 
 gulp.task('default', function() {
   return gulp.src('./src/**/*.css')
-    // .pipe($.header(banner, { pkg }))
+    .pipe($.header(banner, { pkg }))
     .pipe($.postcss([
       autoprefixer(),
     ]))
-    // send verbose
     .pipe(gulp.dest('./dist'))
     .pipe($.cleanCss())
     .pipe($.rename({ extname: ".min.css" }))
-    // send compressed
     .pipe(gulp.dest('./dist'));
 });

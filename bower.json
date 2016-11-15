@@ -1,0 +1,24 @@
+{
+  "name": "animations.css",
+  "authors": [
+    "Justin Aguilar <justin@justinaguilar.com> (http://justinaguilar.com/)",
+    "Rodney Dennis <rodneydennisjr@gmail.com> (http://rod.github.io)"
+  ],
+  "description": "Packaged copy of animations by Justin Aguilar",
+  "main": "animations.css",
+  "keywords": [
+    "css",
+    "css3",
+    "animation",
+    "animate"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.justinaguilar.com/animations/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

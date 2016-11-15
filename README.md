@@ -1,6 +1,6 @@
 # Animations.css
 
-> Packaged copy of [animations]((http://www.justinaguilar.com/animations) by [Justin Aguilar](http://www.justinaguilar.com)
+> Packaged versions of [animations](http://www.justinaguilar.com/animations) by [Justin Aguilar](http://www.justinaguilar.com)
 
 ## Install
 

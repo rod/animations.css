@@ -42,9 +42,8 @@ For entrance animations, you need to make them invisible by adding the `visibili
 
 ~~~ css
 #object {
-	background-color: #fe5652;
-
-	visibility: hidden;
+  background-color: #fe5652;
+  visibility: hidden;
 }
 ~~~
 
@@ -66,16 +65,16 @@ Add jQuery to the `<head>` element of your webpage:
 
 ~~~ html
 <script>
-	$(window).scroll(function() {
-		$('#animatedElement').each(function(){
-		var imagePos = $(this).offset().top;
+  $(window).scroll(function() {
+    $('#animatedElement').each(function(){
+    var imagePos = $(this).offset().top;
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideUp");
-			}
-		});
-	});
+    var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+400) {
+        $(this).addClass("slideUp");
+      }
+    });
+  });
 </script>
 ~~~
 
@@ -87,9 +86,9 @@ Add this before the `</body>` tag to trigger the animation when the user clicks 
 
 ~~~ html
 <script>
-	$('#animatedElement').click(function() {
-		$(this).addClass("slideUp");
-	});
+  $('#animatedElement').click(function() {
+    $(this).addClass("slideUp");
+  });
 </script>
 ~~~
 

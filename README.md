@@ -1,6 +1,6 @@
 # animations.css
 
-[![npm](https://img.shields.io/npm/v/animations.css.svg)]() [![Bower](https://img.shields.io/bower/v/animations.css.svg)]() 
+[![npm](https://img.shields.io/npm/v/animations.css.svg)]() [![Bower](https://img.shields.io/bower/v/animations.css.svg)]() [![license](https://img.shields.io/github/license/rod/animations.css.svg)]()
 
 > Packaged versions of [animations](http://www.justinaguilar.com/animations) by [Justin Aguilar](http://www.justinaguilar.com)
 

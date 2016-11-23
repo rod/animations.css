@@ -1,4 +1,6 @@
-# Animations.css
+# animations.css
+
+[![npm](https://img.shields.io/npm/v/animations.css.svg)]() [![Bower](https://img.shields.io/bower/v/animations.css.svg)]() 
 
 > Packaged versions of [animations](http://www.justinaguilar.com/animations) by [Justin Aguilar](http://www.justinaguilar.com)
 
@@ -94,3 +96,6 @@ Add this before the `</body>` tag to trigger the animation when the user clicks 
 
 - Replace #animatedElement with the ID or class of the element you want animated.
 - Replace slideUp with an animation class.
+
+## License
+MIT © [Rodney Dennis](https://github.com/rod)

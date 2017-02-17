@@ -2,7 +2,7 @@
 
 /*!
 ==============================================
-Packaged copy of animations by Justin Aguilar - v1.0.0
+Packaged versions of animations by Justin Aguilar - v1.0.0
 ==============================================
 
 Made by Justin Aguilar
@@ -573,7 +573,6 @@ bigEntrance
 ==============================================
 */
 
-
 .bigEntrance{
   -webkit-animation-name: bigEntrance;
           animation-name: bigEntrance;
@@ -745,7 +744,6 @@ hatch
 bounce
 ==============================================
 */
-
 
 .bounce{
   -webkit-animation-name: bounce;

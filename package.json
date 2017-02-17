@@ -1,7 +1,7 @@
 {
   "name": "animations.css",
   "version": "1.0.0",
-  "description": "Packaged versions of animations by Justin Aguilar",
+  "description": "CSS3 Animation Cheat Sheet",
   "main": "animations.css",
   "keywords": [
     "css",
@@ -14,10 +14,13 @@
   "devDependencies": {
     "autoprefixer": "^6.5.3",
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.13",
+    "gulp-clean-css": "^3.0.2",
     "gulp-header": "^1.8.8",
     "gulp-load-plugins": "^1.4.0",
     "gulp-postcss": "^6.2.0",
     "gulp-rename": "^1.2.2"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11"
   }
 }

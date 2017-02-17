@@ -1,22 +1,12 @@
-# animations.css
+# animations.css [![npm](https://img.shields.io/npm/v/animations.css.svg)]()
 
-[![npm](https://img.shields.io/npm/v/animations.css.svg)]() [![Bower](https://img.shields.io/bower/v/animations.css.svg)]() [![license](https://img.shields.io/github/license/rod/animations.css.svg)]()
+> CSS3 Animation Cheat Sheet
 
-> Packaged versions of [animations](http://www.justinaguilar.com/animations) by [Justin Aguilar](http://www.justinaguilar.com)
+## Installation
 
-## Install
-
-Install Animations via NPM
-
-~~~ bash
-$ npm install animations.css --save
-~~~
-
-or Bower
-
-~~~ bash
-$ bower install animations.css --save
-~~~
+- npm `npm install --save-dev animations.css`
+- yarn `yarn add --dev animations.css`
+- bower `bower install --save-dev animations.css`
 
 ## How it works
 
@@ -26,28 +16,30 @@ The CSS3 Animation Cheat Sheet uses CSS3 `@keyframes` and works on [all the late
 
 Add the animation stylesheet to the `<head>` element of your webpage:
 
-~~~ html
-<link rel="stylesheet" href="css/animations.css">
-~~~
+```html
+<head>
+  <link rel="stylesheet" href="animations.css">
+</head>
+```
 
 - Replace `css` with the name of the directory where the animation stylesheet is.
 
 Add an animation class to the element you want animated:
 
-~~~ html
+```html
 <div id="object" class="slideUp">
-~~~
+```
 
 Replace `slideUp` with the desired animation class.
 
 For entrance animations, you need to make them invisible by adding the `visibility: hidden` property to the animated element:
 
-~~~ css
+```css
 #object {
   background-color: #fe5652;
   visibility: hidden;
 }
-~~~
+```
 
 - `visibility: hidden;` is used to hide elements before the animation is activated.
 
@@ -59,13 +51,13 @@ By default, these animations will trigger when the page loads - even if the elem
 
 Add jQuery to the `<head>` element of your webpage:
 
-~~~ html
+```html
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-~~~
+```
 
 - Add this before the `</body>` tag to trigger the animation when the user scrolls to the element:
 
-~~~ html
+```html
 <script>
   $(window).scroll(function() {
     $('#animatedElement').each(function(){
@@ -78,7 +70,7 @@ Add jQuery to the `<head>` element of your webpage:
     });
   });
 </script>
-~~~
+```
 
 - Replace `#animatedElement` with the ID or class of the element you want animated.
 - Replace `slideUp` with an animation class.
@@ -86,13 +78,13 @@ Add jQuery to the `<head>` element of your webpage:
 
 Add this before the `</body>` tag to trigger the animation when the user clicks on the element:
 
-~~~ html
+```html
 <script>
   $('#animatedElement').click(function() {
     $(this).addClass("slideUp");
   });
 </script>
-~~~
+```
 
 - Replace #animatedElement with the ID or class of the element you want animated.
 - Replace slideUp with an animation class.

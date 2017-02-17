@@ -20,7 +20,7 @@ const banner = [
   'justin@justinaguilar.com',
   '',
   'Copyright 2016 Rodney Dennis',
-  `Licensed under ${ pkg.license } (https://github.com/rod/animations.css/blob/master/LICENSE.md)`,
+  `Licensed under ${ pkg.license } (https://raw.githubusercontent.com/rod/animations.css/master/license)`,
   '==============================================',
   '*/',
   '',
